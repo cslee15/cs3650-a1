@@ -1,1 +1,36 @@
-# Simply copy and paste the output from your terminal here!
+catherinelee@Catherines-MacBook-Pro a1-work-main % pwd
+/Users/catherinelee/Downloads/a1-work-main/a1-work-main
+catherinelee@Catherines-MacBook-Pro a1-work-main % whoami
+catherinelee
+catherinelee@Catherines-MacBook-Pro a1-work-main % mkdir test_folder
+catherinelee@Catherines-MacBook-Pro a1-work-main % ls
+ExternalResources	output.txt		test_folder
+hello.c			README.md
+catherinelee@Catherines-MacBook-Pro a1-work-main % cd test_folder
+catherinelee@Catherines-MacBook-Pro test_folder % cd ..
+catherinelee@Catherines-MacBook-Pro a1-work-main % rmdir test_folder
+catherinelee@Catherines-MacBook-Pro a1-work-main % ls
+ExternalResources	output.txt
+hello.c			README.md
+catherinelee@Catherines-MacBook-Pro a1-work-main % echo "Hi, my name is Catherine."
+Hi, my name is Catherine.
+catherinelee@Catherines-MacBook-Pro a1-work-main % touch test.txt
+catherinelee@Catherines-MacBook-Pro a1-work-main % ls
+ExternalResources	output.txt		test.txt
+hello.c			README.md
+catherinelee@Catherines-MacBook-Pro a1-work-main % echo "Hello, this is a test." > test.txt  
+catherinelee@Catherines-MacBook-Pro a1-work-main % cat test.txt
+Hello, this is a test.
+catherinelee@Catherines-MacBook-Pro a1-work-main % echo "...and now I'm adding another test." >> test.txt
+catherinelee@Catherines-MacBook-Pro a1-work-main % cat test.txt
+Hello, this is a test.
+...and now I'm adding another test.
+catherinelee@Catherines-MacBook-Pro a1-work-main % cp test.txt test_copy.txt
+catherinelee@Catherines-MacBook-Pro a1-work-main % cat test_copy.txt
+Hello, this is a test.
+...and now I'm adding another test.
+catherinelee@Catherines-MacBook-Pro a1-work-main % mv test_copy.txt renamed_test_copy.txt
+catherinelee@Catherines-MacBook-Pro a1-work-main % ls
+ExternalResources	README.md		
+hello.c			renamed_test_copy.txt
+output.txt		test.txt
